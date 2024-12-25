@@ -123,7 +123,7 @@
     <div class="dedication">To FOML</div>
     <div class="music-control" onclick="toggleMusic()">🎵</div>
     <audio id="bgMusic" loop>
-        <source src="./video/lastChristmas.mp3" type="audio/mp3">
+        <source src="./audiovideo/lastChristmas.mp3" type="audio/mp3">
     </audio>
     <script src="https://unpkg.com/three@0.128.0/build/three.min.js"></script>
     <script src="https://unpkg.com/three@0.128.0/examples/js/controls/OrbitControls.js"></script>
@@ -995,7 +995,7 @@
         // 修改音频加载逻辑
         document.addEventListener('DOMContentLoaded', () => {
             // 直接使用本地音频文件
-            music.src = './video/lastChristmas.mp3';
+            music.src = './audio/lastChristmas.mp3';
             music.volume = 0.5;
 
             // 预加载音频
